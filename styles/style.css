@@ -91,7 +91,11 @@ main {
 main.wrapper .specials {
     display: flex;
     justify-content: space-between;
-    align: center;
+}
+
+main.wrapper .content .specials {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -109,7 +113,7 @@ main.wrapper .specials {
 .container, .container-fluid {
     padding-left: 0;
     margin-left: 0;
-    max-width: 1370px;
+    max-width: 1390px;
     width: 100%;
 }
 
@@ -121,6 +125,10 @@ main.wrapper .specials {
     margin-top: 27px;
     background: #F2CA50;
     border-radius: 15px;
+}
+
+.item-box img {
+    max-width: 330px;
 }
 
 .item-box .item-box-text {
@@ -240,7 +248,6 @@ button a {
     max-width: 410px;
 }
 
-
 .cart h1 {
     width: 885px;
     margin-left: auto;
@@ -255,7 +262,6 @@ button a {
     height: 90px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0;
     background: #F2CA50;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -305,6 +311,17 @@ button a {
     text-align: center;
     padding-left: 58px;
     padding-top: 10px;
+}
+
+
+
+.special {
+    display: flex;
+    margin-top: 25px;
+}
+
+.special-text {
+    margin-bottom: 25px;
 }
 
 

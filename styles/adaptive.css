@@ -1,12 +1,15 @@
 @media (max-width: 960px) {
-    .wrapper {
+
+     body .wrapper {
         display: inline-block;
         max-width: 500px;
-        width: 100%;
-        margin: auto;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     header.top-header {
+        position: absolute;
         height: 200px;
     }
 
@@ -39,7 +42,6 @@
     .logo img {
         width: 60px;
     }
-
     main .specials {
         margin-top: 100px;
     }
@@ -133,13 +135,15 @@
         margin-top: 100px;
     }
 
-    .col-6 .specials {
-        display: flex;
-    }
-
     .specials img {
         width: 400px;
     }
+
+    .special {
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 640px) {
@@ -235,12 +239,12 @@
         margin-top: 100px;
     }
 
-    .col-6 .specials {
-        display: flex;
+    .special img {
+        width: 100%;
     }
 
-    .specials img {
-        width: 400px;
+    .special {
+        display: inline-block;
+        flex-wrap: wrap;
     }
-
 }
